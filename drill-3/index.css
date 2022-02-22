@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.first-box {
+    background-color: rgb(90, 88, 88);
+    height: 200px;
+    display: flex;
+}
+.logobox{
+    background-color: aqua;
+    height:150px;
+    width: 150px;
+    margin: 20px;
+}
+.textbox {
+    margin: 50px;
+}
+.colorbox1, .colorbox2, .colorbox3, .colorbox4, .colorbox5{
+    height:200px;
+}
+.colorbox1 {
+    background-color: aquamarine;
+}    
+.colorbox2 {
+    background-color: aqua;
+}
+.colorbox3 {
+    background-color: blue;
+}
+.colorbox4 {
+    background-color:beige
+}
+.colorbox5 {
+    background-color: cadetblue;
+}

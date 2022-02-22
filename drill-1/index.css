@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.topbox {
+    background-color: darkslategrey;
+    height: 100px;
+    width: 100%;
+
+}
+.container {
+    position: relative;
+}
+.leftbox, .rightbox {
+    background-color: gray;
+    height: 100%;
+    width: 200px;
+    z-index: 2;
+}
+.bottombox {
+    background-color: black;
+    height:100px;
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    z-index: 1;
+}
+.leftbox {
+    position:absolute;
+    left: 0px;
+}
+.rightbox {
+    position:absolute;
+    right:0px;
+    
+}
